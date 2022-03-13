@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "./static/css/main.2ce8f85f.css",
-    "main.js": "./static/js/main.2bca730d.js",
-    "static/js/787.5eacb381.chunk.js": "./static/js/787.5eacb381.chunk.js",
-    "static/media/skittles.JPG": "./static/media/skittles.99fcadd5b1d2af066bb2.JPG",
-    "static/media/eminems.JPG": "./static/media/eminems.b7f3313cfd7bdbbf487d.JPG",
-    "static/media/frenchfries.JPG": "./static/media/frenchfries.597e902e270c30d87e36.JPG",
-    "static/media/pizza.JPG": "./static/media/pizza.95cee3eb034d07a9d3ff.JPG",
-    "static/media/cake.JPG": "./static/media/cake.6ac31e146fa2f3ee4fb3.JPG",
-    "static/media/cheesecake.JPG": "./static/media/cheesecake.de24b848348e8b89ab82.JPG",
-    "static/media/icecream.JPG": "./static/media/icecream.25bbebcbf82b9e37800c.JPG",
-    "static/media/twizzlers.JPG": "./static/media/twizzlers.f11658f170e4124af404.JPG",
-    "static/media/cupcake.JPG": "./static/media/cupcake.e44f3caa71b43add92b7.JPG",
-    "static/media/flame.JPG": "./static/media/flame.e9a3f90405cb5ed66af8.JPG",
-    "index.html": "./index.html",
-    "main.2ce8f85f.css.map": "./static/css/main.2ce8f85f.css.map",
-    "main.2bca730d.js.map": "./static/js/main.2bca730d.js.map",
-    "787.5eacb381.chunk.js.map": "./static/js/787.5eacb381.chunk.js.map"
+    "main.css": "/cheatdelete/static/css/main.637a323f.css",
+    "main.js": "/cheatdelete/static/js/main.1b6ffb08.js",
+    "static/js/787.5eacb381.chunk.js": "/cheatdelete/static/js/787.5eacb381.chunk.js",
+    "static/media/background.jpg": "/cheatdelete/static/media/background.f8f4d0fb662e0b7b064e.jpg",
+    "static/media/skittles.JPG": "/cheatdelete/static/media/skittles.99fcadd5b1d2af066bb2.JPG",
+    "static/media/eminems.JPG": "/cheatdelete/static/media/eminems.b7f3313cfd7bdbbf487d.JPG",
+    "static/media/frenchfries.JPG": "/cheatdelete/static/media/frenchfries.597e902e270c30d87e36.JPG",
+    "static/media/pizza.JPG": "/cheatdelete/static/media/pizza.95cee3eb034d07a9d3ff.JPG",
+    "static/media/cake.JPG": "/cheatdelete/static/media/cake.6ac31e146fa2f3ee4fb3.JPG",
+    "static/media/cheesecake.JPG": "/cheatdelete/static/media/cheesecake.de24b848348e8b89ab82.JPG",
+    "static/media/icecream.JPG": "/cheatdelete/static/media/icecream.25bbebcbf82b9e37800c.JPG",
+    "static/media/twizzlers.JPG": "/cheatdelete/static/media/twizzlers.f11658f170e4124af404.JPG",
+    "static/media/cupcake.JPG": "/cheatdelete/static/media/cupcake.e44f3caa71b43add92b7.JPG",
+    "static/media/flame.JPG": "/cheatdelete/static/media/flame.e9a3f90405cb5ed66af8.JPG",
+    "index.html": "/cheatdelete/index.html",
+    "main.637a323f.css.map": "/cheatdelete/static/css/main.637a323f.css.map",
+    "main.1b6ffb08.js.map": "/cheatdelete/static/js/main.1b6ffb08.js.map",
+    "787.5eacb381.chunk.js.map": "/cheatdelete/static/js/787.5eacb381.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ce8f85f.css",
-    "static/js/main.2bca730d.js"
+    "static/css/main.637a323f.css",
+    "static/js/main.1b6ffb08.js"
   ]
 }
