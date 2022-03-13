@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cheatdelete/static/css/main.b75c677c.css",
-    "main.js": "/cheatdelete/static/js/main.85fc5254.js",
+    "main.css": "/cheatdelete/static/css/main.18798f8b.css",
+    "main.js": "/cheatdelete/static/js/main.c887c1bd.js",
     "static/js/787.5eacb381.chunk.js": "/cheatdelete/static/js/787.5eacb381.chunk.js",
     "static/media/background.jpg": "/cheatdelete/static/media/background.f8f4d0fb662e0b7b064e.jpg",
     "static/media/skittles.JPG": "/cheatdelete/static/media/skittles.99fcadd5b1d2af066bb2.JPG",
@@ -15,12 +15,12 @@
     "static/media/cupcake.JPG": "/cheatdelete/static/media/cupcake.e44f3caa71b43add92b7.JPG",
     "static/media/flame.JPG": "/cheatdelete/static/media/flame.e9a3f90405cb5ed66af8.JPG",
     "index.html": "/cheatdelete/index.html",
-    "main.b75c677c.css.map": "/cheatdelete/static/css/main.b75c677c.css.map",
-    "main.85fc5254.js.map": "/cheatdelete/static/js/main.85fc5254.js.map",
+    "main.18798f8b.css.map": "/cheatdelete/static/css/main.18798f8b.css.map",
+    "main.c887c1bd.js.map": "/cheatdelete/static/js/main.c887c1bd.js.map",
     "787.5eacb381.chunk.js.map": "/cheatdelete/static/js/787.5eacb381.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b75c677c.css",
-    "static/js/main.85fc5254.js"
+    "static/css/main.18798f8b.css",
+    "static/js/main.c887c1bd.js"
   ]
 }
