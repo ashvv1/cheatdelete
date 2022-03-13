@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cheatdelete/static/css/main.a764c5d6.css",
-    "main.js": "/cheatdelete/static/js/main.070e4b94.js",
+    "main.css": "/cheatdelete/static/css/main.61297b55.css",
+    "main.js": "/cheatdelete/static/js/main.28bd814a.js",
     "static/js/787.5eacb381.chunk.js": "/cheatdelete/static/js/787.5eacb381.chunk.js",
     "static/media/background.jpg": "/cheatdelete/static/media/background.f8f4d0fb662e0b7b064e.jpg",
     "static/media/skittles.JPG": "/cheatdelete/static/media/skittles.99fcadd5b1d2af066bb2.JPG",
@@ -10,17 +10,23 @@
     "static/media/pizza.JPG": "/cheatdelete/static/media/pizza.95cee3eb034d07a9d3ff.JPG",
     "static/media/cake.JPG": "/cheatdelete/static/media/cake.6ac31e146fa2f3ee4fb3.JPG",
     "static/media/cheesecake.JPG": "/cheatdelete/static/media/cheesecake.de24b848348e8b89ab82.JPG",
+    "static/media/cocacola.JPG": "/cheatdelete/static/media/cocacola.02e98a7fcf7f095a302d.JPG",
     "static/media/icecream.JPG": "/cheatdelete/static/media/icecream.25bbebcbf82b9e37800c.JPG",
+    "static/media/pancakes.JPG": "/cheatdelete/static/media/pancakes.966df8446de66ff4b99f.JPG",
     "static/media/twizzlers.JPG": "/cheatdelete/static/media/twizzlers.f11658f170e4124af404.JPG",
+    "static/media/hamburger.JPG": "/cheatdelete/static/media/hamburger.1bf4eb2fe0ed3c8b61fc.JPG",
     "static/media/cupcake.JPG": "/cheatdelete/static/media/cupcake.e44f3caa71b43add92b7.JPG",
+    "static/media/bamba.JPG": "/cheatdelete/static/media/bamba.ff386c769b3a1a3d6396.JPG",
+    "static/media/onionrings.JPG": "/cheatdelete/static/media/onionrings.24a5b2e4bafd3f7a8f98.JPG",
     "static/media/flame.JPG": "/cheatdelete/static/media/flame.e9a3f90405cb5ed66af8.JPG",
+    "static/media/xl.JPG": "/cheatdelete/static/media/xl.6eab70d2559225c1ef02.JPG",
     "index.html": "/cheatdelete/index.html",
-    "main.a764c5d6.css.map": "/cheatdelete/static/css/main.a764c5d6.css.map",
-    "main.070e4b94.js.map": "/cheatdelete/static/js/main.070e4b94.js.map",
+    "main.61297b55.css.map": "/cheatdelete/static/css/main.61297b55.css.map",
+    "main.28bd814a.js.map": "/cheatdelete/static/js/main.28bd814a.js.map",
     "787.5eacb381.chunk.js.map": "/cheatdelete/static/js/787.5eacb381.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a764c5d6.css",
-    "static/js/main.070e4b94.js"
+    "static/css/main.61297b55.css",
+    "static/js/main.28bd814a.js"
   ]
 }
