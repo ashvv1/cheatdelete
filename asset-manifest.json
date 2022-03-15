@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cheatdelete/static/css/main.db7ab2b9.css",
-    "main.js": "/cheatdelete/static/js/main.f472642e.js",
+    "main.css": "/cheatdelete/static/css/main.fd8ccfeb.css",
+    "main.js": "/cheatdelete/static/js/main.0985ea46.js",
     "static/js/787.5eacb381.chunk.js": "/cheatdelete/static/js/787.5eacb381.chunk.js",
     "static/media/background.jpg": "/cheatdelete/static/media/background.f82c72413be83fe36dfe.jpg",
     "static/media/skittles.JPG": "/cheatdelete/static/media/skittles.99fcadd5b1d2af066bb2.JPG",
@@ -22,12 +22,12 @@
     "static/media/flame.JPG": "/cheatdelete/static/media/flame.e9a3f90405cb5ed66af8.JPG",
     "static/media/xl.JPG": "/cheatdelete/static/media/xl.6eab70d2559225c1ef02.JPG",
     "index.html": "/cheatdelete/index.html",
-    "main.db7ab2b9.css.map": "/cheatdelete/static/css/main.db7ab2b9.css.map",
-    "main.f472642e.js.map": "/cheatdelete/static/js/main.f472642e.js.map",
+    "main.fd8ccfeb.css.map": "/cheatdelete/static/css/main.fd8ccfeb.css.map",
+    "main.0985ea46.js.map": "/cheatdelete/static/js/main.0985ea46.js.map",
     "787.5eacb381.chunk.js.map": "/cheatdelete/static/js/787.5eacb381.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db7ab2b9.css",
-    "static/js/main.f472642e.js"
+    "static/css/main.fd8ccfeb.css",
+    "static/js/main.0985ea46.js"
   ]
 }
