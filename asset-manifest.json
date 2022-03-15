@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cheatdelete/static/css/main.0090a01b.css",
+    "main.css": "/cheatdelete/static/css/main.ab6d6d97.css",
     "main.js": "/cheatdelete/static/js/main.f472642e.js",
     "static/js/787.5eacb381.chunk.js": "/cheatdelete/static/js/787.5eacb381.chunk.js",
     "static/media/background.jpg": "/cheatdelete/static/media/background.f82c72413be83fe36dfe.jpg",
@@ -11,6 +11,7 @@
     "static/media/cake.JPG": "/cheatdelete/static/media/cake.6ac31e146fa2f3ee4fb3.JPG",
     "static/media/cheesecake.JPG": "/cheatdelete/static/media/cheesecake.de24b848348e8b89ab82.JPG",
     "static/media/cocacola.JPG": "/cheatdelete/static/media/cocacola.02e98a7fcf7f095a302d.JPG",
+    "static/media/snickers.JPG": "/cheatdelete/static/media/snickers.60e2132c131615c4f975.JPG",
     "static/media/icecream.JPG": "/cheatdelete/static/media/icecream.25bbebcbf82b9e37800c.JPG",
     "static/media/pancakes.JPG": "/cheatdelete/static/media/pancakes.966df8446de66ff4b99f.JPG",
     "static/media/twizzlers.JPG": "/cheatdelete/static/media/twizzlers.f11658f170e4124af404.JPG",
@@ -21,12 +22,12 @@
     "static/media/flame.JPG": "/cheatdelete/static/media/flame.e9a3f90405cb5ed66af8.JPG",
     "static/media/xl.JPG": "/cheatdelete/static/media/xl.6eab70d2559225c1ef02.JPG",
     "index.html": "/cheatdelete/index.html",
-    "main.0090a01b.css.map": "/cheatdelete/static/css/main.0090a01b.css.map",
+    "main.ab6d6d97.css.map": "/cheatdelete/static/css/main.ab6d6d97.css.map",
     "main.f472642e.js.map": "/cheatdelete/static/js/main.f472642e.js.map",
     "787.5eacb381.chunk.js.map": "/cheatdelete/static/js/787.5eacb381.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0090a01b.css",
+    "static/css/main.ab6d6d97.css",
     "static/js/main.f472642e.js"
   ]
 }
