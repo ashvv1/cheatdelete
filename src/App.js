@@ -14,7 +14,6 @@ function App() {
   const [filters_window, setfilters_window] = useState('filters-closed')
   const [foodChoice, setFood] = useState(0);
   const [kg,setkgToggle] = useState(true);
-  const [weightOption, setWeightDisplay] = useState('Your Weight(kg)')
   const [kgselected, setkgselected] = useState('kgselected');
   const [lbselected, setlbselected] = useState('');
   const [lightCheck, setLight] = useState(false);
@@ -44,20 +43,23 @@ useEffect(() => {
 
 
 const running = {
-  name: 'RUN',
+  name: 'RUN ',
+  inst: '(MODERATE/FAST PACE)',
   mets: 7.5,
   intensity: 'heavy',
   time: 20,
   }
 const deadlifts = {
   name: 'DO DEADLIFTS',
+  inst: '1x5reps, 2x10reps, 1x5reps(50% MAX WEIGHT)',
   mets: 6.2,
   intensity: 'heavy',
-  time: 20,
+  time: 15,
 }
 
 const walkingLight = {
   name: 'WALK',
+  inst: '(NORMAL/ CALM)',
   mets: 2.6,
   intensity: 'light',
   time: 40,
@@ -65,6 +67,7 @@ const walkingLight = {
 
 const walkingHeavy = {
   name: 'FAST WALK',
+  inst: '(>3mpnh)',
   mets: 3.3,
   intensity: 'light',
   time: 30,
@@ -72,6 +75,7 @@ const walkingHeavy = {
 
 const mBike = {
   name: 'MOUNTAIN BIKE',
+  inst: "(MODERATE INCLINE)",
   mets: 6.5,
   intensity: 'heavy',
   time: 30,
@@ -79,6 +83,7 @@ const mBike = {
 
 const jumpRope = {
   name: 'JUMP ROPE',
+  inst: '(MODERATE TO FAST PACE)',
   mets: 10,
   intensity: 'heavy',
   time: 10,
@@ -86,13 +91,15 @@ const jumpRope = {
 
 const jogging = {
   name: 'JOG',
+  inst: '(>5mph)',
   mets: 6,
   intensity: 'moderate',
   time: 30,
 }
 
 const crunches = {
-  name: 'DO CRUNCHES(20x4)',
+  name: 'DO CRUNCHES',
+  inst: '(4x20 REPS)',
   mets: 5,
   intensity: 'moderate',
   time: 10,
@@ -100,7 +107,8 @@ const crunches = {
 }
 
 const pushups = {
-  name: 'DO PUSHUPS(20x3)',
+  name: 'DO PUSHUPS',
+  inst: '(3x20 REPS)',
   mets: 3.8,
   intensity: 'moderate',
   time: 10,
@@ -108,33 +116,66 @@ const pushups = {
 
 const yoga = {
   name: 'DO YOGA',
-  mets: 3,
+  inst: '(MATHA STYLE)',
+  mets: 2.5,
   intensity: 'light',
   time: 40,
 }
 
+const yoga2 = {
+  name: 'DO YOGA',
+  inst: '(POWER STYLE)',
+  mets: 4.0,
+  intensity: 'moderate',
+  time: 30,
+}
+
 const biking1 = {
-  name: 'BIKE(5.5mph)',
+  name: 'BIKE',
+  inst: '(5.5 mph)',
   mets: 3.5,
   intensity: 'light',
   time: 30,
 }
 
 const biking2 = {
-  name: 'BIKE(9.4mph)',
+  name: 'BIKE',
+  inst: '(9.4 mph)',
   mets: 5.8,
   intensity: 'moderate',
   time: 30,
 }
 
 const eliptical = {
-  name: 'ELIPTICAL',
+  name: 'RIDE ELIPTICAL',
+  inst: '10%(2 MIN), 30%(5MIN) 50%(5MIN) 70%(3MIN) 10%(5MIN)',
   mets: 5.0,
   intensity: 'moderate',
-  time: 30,
+  time: 20,
+}
 
+const benchpress = {
+  name: 'BENCHPRESS',
+  inst: '(2x10reps, 1x5reps@50% MAX)',
+  mets: 6.0,
+  intensity: 'heavy',
+  time: 15,
+}
 
+const stretching = {
+  name: "STRETCH",
+  inst: '(GENTLY)',
+  mets: 2.3,
+  intensity: 'very light',
+  time: 20,
+}
 
+const hiking = {
+  name: "GO FOR A HIKE",
+  inst: '(15% INCLINE)',
+  mets: 7.0,
+  intensity: "heavy",
+  time: 60
 }
 
 
@@ -198,7 +239,7 @@ const frenchfries = {
 
 const eminems = {
   index: 7,
-  name: 'eminems',
+  name: 'M&Ms',
   style: 'eminems',
   amount: '32 pcs.(28g)',
   calories: 140,
@@ -249,7 +290,7 @@ const cola = {
   index: 13,
   name: 'cocacola',
   style: 'cocacola',
-  amount: '355ml',
+  amount: '1 can(355ml)',
   calories: 140,
 }
 
@@ -261,12 +302,45 @@ const hamburger = {
   calories: 520,
 }
 
-
-
-const doritos1 = {
-
+const snickers = {
+  index: 15,
+  name: 'snickers',
+  style: 'snickers',
+  amount: '1 bar(57g)',
+  calories: 280,
 }
 
+const mars = {
+  index: 16,
+  name: 'mars',
+  style: 'mars',
+  amount: '50g',
+  calories: 250,
+}
+
+const cookies = {
+  index: 17,
+  name: 'chocolate chips cookies',
+  style: 'cookies',
+  amount: '100g',
+  calories: 488,
+}
+
+const brownie = {
+  index: 18,
+  name: 'chocolate brownie',
+  style: 'brownie',
+  amount: '100g',
+  calories: 466,
+}
+
+const worms = {
+  index: 19,
+  name: 'gummy worms',
+  style: 'worms',
+  amount: '4 pieces',
+  calories: 120,
+}
 
 const selecteFood = {
   index: -1,
@@ -275,12 +349,14 @@ const selecteFood = {
 }
 
 //FOODS LIST//
-let foods =[pizza,cake,cupcake,skittles,icecream,twizzlers,frenchfries,eminems,cheesecake, onionrings, pancakes,bamba, xl, cola, hamburger]
+let foods =[pizza,cake,cupcake,skittles,icecream,twizzlers,frenchfries,eminems,cheesecake, onionrings, pancakes,bamba, xl, cola, hamburger,snickers,
+mars, cookies, brownie, worms
+]
 
 //WORKOOUT LIST??
-let heavyworkouts = [running,deadlifts, mBike, jumpRope];
-let modworkouts = [jogging,crunches,pushups,eliptical];
-let lightworkouts = [walkingLight,walkingHeavy,yoga,biking1,biking2];
+let heavyworkouts = [running,deadlifts, mBike, jumpRope,benchpress,hiking];
+let modworkouts = [jogging,crunches,pushups,eliptical, yoga2];
+let lightworkouts = [walkingLight,walkingHeavy,yoga,biking1,biking2,stretching];
 let chosen_workOuts = [];
 
 //CHOOSE WORKOUT
@@ -312,13 +388,11 @@ const heavyToggle = () => {
 
 const toggleKg = () => {
   if (kg){
-  setWeightDisplay('Your Weight(lb)')
   setkgToggle(false)
   setWeight((weight/2.205).toFixed(2))
   setkgselected('kgoff')
   setlbselected('lbselected')
   }else{
-    setWeightDisplay('Your Weight(kg)')
     setkgToggle(true)
     setWeight((weight*2.205).toFixed(2))
     setkgselected('kgselected')
@@ -350,8 +424,8 @@ const toggleKg = () => {
 
  
 
-    while(calories > (calBurned+50) && weight > 0){
-    let chosenWorkout = 40;
+    while(calories > (calBurned+30) && weight > 0){
+    let chosenWorkout = 0;
 
     if(heavyCheck){
       chosenWorkout = Math.floor(Math.random()*heavyworkouts.length);
@@ -360,7 +434,7 @@ const toggleKg = () => {
       totalTime += heavyworkouts[chosenWorkout].time;
     }
 
-    if (calBurned > calories + 50 && (lightCheck || modCheck)){
+    if ((calBurned > (calories + 100)) && (lightCheck || modCheck) && heavyCheck){
       chosen_workOuts.pop();
       calBurned -= ((((heavyworkouts[chosenWorkout].mets)*3.5*weight)/200)*heavyworkouts[chosenWorkout].time);
       totalTime -= heavyworkouts[chosenWorkout].time;
@@ -369,25 +443,27 @@ const toggleKg = () => {
     if (lightCheck && calories - 50 > calBurned) {
     chosenWorkout = Math.floor(Math.random()*lightworkouts.length);
     chosen_workOuts.push(lightworkouts[chosenWorkout]);
-    calBurned += (((lightworkouts[chosenWorkout].mets)*cpmC)*lightworkouts[chosenWorkout].time);
+    calBurned += ((((lightworkouts[chosenWorkout].mets)*3.5*weight)/200)*lightworkouts[chosenWorkout].time);
     totalTime += lightworkouts[chosenWorkout].time;
     }
+
     if(modCheck && calories - 50 > calBurned){
     chosenWorkout = Math.floor(Math.random()*modworkouts.length);
     chosen_workOuts.push(modworkouts[chosenWorkout]);
-    calBurned += (((modworkouts[chosenWorkout].mets)*cpmC)*modworkouts[chosenWorkout].time);
+    calBurned += ((((modworkouts[chosenWorkout].mets)*3.5*weight)/200)*modworkouts[chosenWorkout].time);
     totalTime += modworkouts[chosenWorkout].time;
     }
-    if (calBurned > calories + 100 && lightCheck){
+
+    if (calBurned > calories + 100 && lightCheck && modCheck){
       chosen_workOuts.pop();
-      calBurned -= (((modworkouts[chosenWorkout].mets)*cpmC)*modworkouts[chosenWorkout].time)
+      calBurned -= ((((modworkouts[chosenWorkout].mets)*3.5*weight)/200)*modworkouts[chosenWorkout].time)
       totalTime -= modworkouts[chosenWorkout].time
       }
     
-    if (lightCheck && calories > calBurned) {
+    if (lightCheck && calories > calBurned + 30) {
       chosenWorkout = Math.floor(Math.random()*lightworkouts.length);
       chosen_workOuts.push(lightworkouts[chosenWorkout]);
-      calBurned += (((lightworkouts[chosenWorkout].mets)*cpmC)*lightworkouts[chosenWorkout].time);
+      calBurned += ((((lightworkouts[chosenWorkout].mets)*3.5*weight)/200)*lightworkouts[chosenWorkout].time);
       totalTime += lightworkouts[chosenWorkout].time
       }
 }
@@ -398,7 +474,7 @@ const flame =require('./flame.png')
     let workoutList = chosen_workOuts.map((workout, i) => {
       return (
           <ul>
-            <li key={i} className='list-item'>{workout.name}<span className='note'></span> x {workout.time} mins ({workout.intensity}) <br className='moblie-div'></br> <img src={flame} alt='flamepic'  width='5%' height='5%'></img> {(workout.mets*cpmC*workout.time).toFixed(2)} cal. <img src={flame} alt='flamepic'  width='5%' height='5%'></img></li>
+            <li key={i} className='list-item'>{workout.name} ({workout.intensity})<br className='moblie-div'></br><span className='note'>{workout.inst}</span><br className='moblie-div'></br>~ {workout.time} mins <br className='moblie-div'></br><img src={flame} alt='flamepic'  width='5%' height='5%'></img> {(((workout.mets*3.5*weight)/200)*workout.time).toFixed(2)} cal. <img src={flame} alt='flamepic'  width='5%' height='5%'></img></li>
           </ul> 
             
       )})
@@ -475,9 +551,9 @@ const flame =require('./flame.png')
     <br></br>
 
     <div className='labels'>
-    <label for='light' className='space-right'>Light</label>
-    <label for='moderate' className='space-right'>Moderate</label>
-    <label for='heavy' className='space-right'>Heavy</label>
+    <label for='light' className='space-right'>LIGHT</label>
+    <label for='moderate' className='space-right'>MODERATE</label>
+    <label for='heavy' className='space-right'>HEAVY</label>
     </div>
     <div className='checkboxes'>
     <div className={filterMissing}>
@@ -512,7 +588,7 @@ const flame =require('./flame.png')
   <div id='results' className = {results_window}>
   <h1 >{foodName}</h1>
     
-  <div className='icon' id={foodName}width='50%' height='50%'></div>
+  <div className='icon' id={foods[foodChoice].style}width='50%' height='50%'></div>
   <h2>{serving}({calories} cal.)</h2>
   
   <div className='list'>

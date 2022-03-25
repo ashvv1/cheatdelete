@@ -19,7 +19,7 @@
   position: fixed; 
   justify-content: space-around;
   color: rgb(255, 255, 255);
-  }
+   }
 
 .buttons {
   display: flex;
@@ -36,7 +36,7 @@
   font-size: 8vw;
   font-weight: 800;
   justify-content: center;
-  line-height: 1.9rem;
+  line-height: 4vw;
   padding: .75rem 1.65rem;
   position: relative;
   text-align: center;
@@ -74,7 +74,6 @@
   margin: .5rem;
   margin-left: 1vw;
   margin-right: 1vw;
-  box-shadow: inset -1px -1px 1px 1px black;
 
 }
 
@@ -87,25 +86,6 @@
   box-shadow: 0 0 8px 1px rgba(118, 200, 255, 0.5);
 }
 
-.radio {
-  transform: scale(3);
-  margin: .5rem;
-}
-
-.radio:active {
-  box-shadow: 0 0 10px 5px rgba(102, 138, 255, 0.5);
-}
-
-.radio:active {
-  box-shadow: inset 0 0 -2px -2 rgb(0, 8, 53);
-  box-shadow: 0 0 8px 1px rgba(118, 200, 255, 0.5);
-}
-
-.checkbox {
-  font-size: 100%;
-  margin-left: 1vw;
-
-}
 
 .checkboxes{
   display:flex;
@@ -183,23 +163,31 @@ input {
 }
 
 label {
+  font-weight: 600;
   font-size: 130%;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1vw;
+  border: .2vw solid black;
+  box-shadow: 1vw 1vw 0 .5vw rgba(0, 0, 0, 0.733);
 }
 
 .icon {
-  width: 60%;
-  height: 25vh;
+  width: 50%;
+  height: 20vh;
   box-shadow: inset 0px 0 1vw 1vw rgba(71, 71, 71, 0.705);
 }
 
 
 .note {
-  font-size: 2vw;
+  font-size: 4vw;
+  font-style: italic;
 }
 
 .space-right {
   margin: 7.5vw;
-  margin-left: -5vw;
+  margin-left: -12vw;
 }
 
 /**IMAGES**/
@@ -214,6 +202,7 @@ label {
   background-image: url('../resources/images/cake.JPG' );
   background-repeat: no-repeat;
   background-size:cover;
+  opacity: 0.7;
 }
 #cupcake {
   background-image: url('../resources/images/cupcake.JPG');
@@ -294,6 +283,35 @@ label {
   background-size: cover;
 }
 
+#snickers{
+  background-image: url('../resources/images/snickers.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mars{
+  background-image: url('../resources/images/mars.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cookies{
+  background-image: url('../resources/images/cookies.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#brownie{
+  background-image: url('../resources/images/brownie.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#worms{
+  background-image: url('../resources/images/worms.JPG');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
 .lbselected{
   font-size: 10vw;
   color: rgb(0, 0, 0);
@@ -446,6 +464,12 @@ ul{
 
 .list-item{
   font-size: 5vw;
+  background-color: #000000;
+  box-shadow: 1.4vw .6vw 0 .09vw rgba(31, 31, 31, 0.267), 1vw 1vw  0 .1vw rgb(255, 255, 255);
+  box-sizing: border-box;
+  color: #ffffff;
+  position: relative;
+  margin-right: 4vw;
 }
 
 .App-logo {
@@ -560,7 +584,6 @@ h5 {
     justify-content: space-evenly;
     overflow-y: hidden;
     overflow-x: scroll;
-    border: .1vw solid rgba(58, 18, 18, 0.527);
     animation: slideleftroll ease-in .4s;
   }
 
@@ -616,18 +639,16 @@ h5 {
   .linethrough {
     font-size: 8vw;
     text-decoration: line-through;
-    animation: 3s linear infinite alternate linethrough;
+    animation: 2s linear infinite alternate linethrough;
   }
 
 }
 
 @keyframes checkpulse{
  from {
-   box-shadow: inset 0 0 5vw 5vw rgba(175, 1, 1, 0);
-   transform: scale(2)
+   transform: scale(2);
  }to{
-  box-shadow: inset 0 0 5vw 5vw rgba(175, 1, 1, 0.466);
-  transform: scale(2.1)
+  transform: scale(2.7)
  }
 }
 @keyframes pulse{
@@ -687,7 +708,7 @@ h5 {
     filter: blur(0);
   }
   to {
-    filter: blur(10px);
+    filter: blur(5px);
   }
 }
 
@@ -720,7 +741,6 @@ h5 {
     margin: .5rem;
     margin-left: 1vw;
     margin-right: 1vw;
-    box-shadow: inset 0 0 .1vw .1vw black;
   }
 
   .tile {
@@ -733,6 +753,86 @@ h5 {
     min-height:50vh;
   }
 
+}
+
+@media screen and (min-aspect-ratio: 1/1){
+
+
+    .filters-opened {
+      height: 10vh;
+    }
+
+    .checkboxes{
+      height: 100%;
+    }
+
+    .checkbox{
+      transform:scale(.5);
+    }
+
+    input{
+      font-size: 10px;
+      
+    }
+
+    .weightInput {
+      font-size: 10px;
+    }
+
+    .kgButton{
+      font-size: 8vh;
+    }
+
+    .intensity{
+      font-size: 5vh;
+    }
+    .lbselected {
+      font-size: 10vh;
+    }
+
+    button{
+      font-size: 3vh;
+    }
+
+    button:after{
+      background-color: black;
+
+    }
+    .kgselected {
+      font-size: 10vh;
+    }
+
+    .App {
+      background-image: url('../resources/images/background.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      position: fixed; 
+      justify-content: space-around;
+      color: rgb(255, 255, 255);
+      }
+
+  .list{
+    height: 100%;
+  }
+
+  .opening-open{
+    height: 80%;
+  }
+
+
+  .open-list{
+    font-size: 6vh;
+    height: 12vh;
+  }
+
+  li{
+    font-size: 1vh;
+  }
 }
   
 @media screen and (max-aspect-ratio: 1/1) and (orientation: landscape){

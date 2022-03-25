@@ -1,0 +1,8 @@
+{
+	"appId": "io.ionic.cheatdelete",
+	"appName": "cheatdelete",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "build",
+	"cordova": {}
+}

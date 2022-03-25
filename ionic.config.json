@@ -1,0 +1,7 @@
+{
+  "name": "cheatdelete",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
